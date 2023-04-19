@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: aliceblue;
+}
+
+
+@media screen and (min-width: 375px) {
+    .thank_section{
+     background-color:hsl(213, 19%, 18%) ;
+    border-radius: 20px;
+    height: 60vh;
+    margin: 20px;
+    padding: 5px;
+    }
+    
+    .card_text_p{
+        font-size: 2em; 
+        font-family: 'Overpass', sans-serif;
+        font-weight: 600;
+        color: white;
+        line-height: 1.3em;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .card_image{
+        margin-bottom: 20px;
+    }
+    
+    .card_div{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .selected_div{
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    .selected{
+    background-color:hsl(216, 12%, 8%) ;
+    height: 10vw;
+    width: 50vw;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    padding-top: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 20px;
+    }
+    .card_p_text{
+        text-align: center;
+        font-size: 15px; 
+        font-family: 'Overpass', sans-serif;
+        font-weight: 400;
+        color: hsl(217, 12%, 63%);
+        line-height: 1.3em;
+        margin-bottom: 10px;
+    }
+    .hidden{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .thank_section{
+        background-color:hsl(213, 19%, 18%) ;
+       border-radius: 20px;
+       height: 60vh;
+       margin-left: 25vw;
+       margin-right: 25vw;
+       padding: 5px;
+       }
+       
+       .card_text_p{
+           font-size: 2em; 
+           font-family: 'Overpass', sans-serif;
+           font-weight: 600;
+           color: white;
+           line-height: 1.3em;
+           text-transform: capitalize;
+           text-align: center;
+           margin-bottom: 10px;
+       }
+       
+       .card_image{
+           margin-bottom: 20px;
+       }
+       
+       .card_div{
+           display: flex;
+           justify-content: center;
+       }
+       
+       .selected_div{
+           display: flex;
+           justify-content: center;
+       
+       
+       }
+       .selected{
+       background-color:hsl(216, 12%, 8%) ;
+       height:5vw;
+       width: 30vw;
+       border-radius: 20px;
+       padding-top: 55px;
+       color: hsl(25, 97%, 53%);
+       text-transform: capitalize;
+       text-align: center;
+       font-family: 'Overpass', sans-serif;
+       margin-bottom: 20px;
+       }
+       .card_p_text{
+           text-align: center;
+           font-size: 15px; 
+           font-family: 'Overpass', sans-serif;
+           font-weight: 400;
+           color: hsl(217, 12%, 63%);
+           line-height: 1.3em;
+           margin-bottom: 10px;
+       }
+       
+}
